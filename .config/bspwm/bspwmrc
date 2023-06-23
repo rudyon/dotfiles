@@ -12,7 +12,7 @@ kilall rclone; rclone mount --daemon gdrive: /home/rudyon/gdrive &
 setxkbmap -option caps:backspace
 xmodmap -e "clear Lock"
 
-bspc monitor -d 1 2 3
+bspc monitor -d 1 2 3 4
 
 bspc config border_width 1 
 bspc config window_gap 12 
@@ -26,3 +26,5 @@ bspc config focus_follows_pointer false
 bspc config focused_border_color "#e3256b"
 bspc config normal_border_color "#073642"
 bspc config active_border_color "#073642"
+
+bspc rule -a feh state=floating

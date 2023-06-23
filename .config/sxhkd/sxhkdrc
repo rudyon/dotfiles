@@ -59,8 +59,8 @@ super + bracket{left,right}
 	bspc desktop -f {prev,next}.local
 
 # focus or send to the given desktop
-super + {_,shift + }{1-3}
-	bspc {desktop -f,node -d} '^{1-3}'
+super + {_,shift + }{1-4}
+	bspc {desktop -f,node -d} '^{1-4}'
 
 #
 # move/resize
@@ -95,7 +95,7 @@ XF86AudioMute
 
 # screenshot
 super + shift + s
-	killall hhpc; shotgun -g $(hacksaw); hhpc &
+	feh $(shotgun -g $(hacksaw))
 
 # brightness up
 XF86MonBrightnessUp

@@ -7,7 +7,6 @@ killall picom; picom &
 killall polybar; polybar &
 killall unclutter; unclutter --timeout 1 --jitter 32 --start-hidden &
 alsactl restore -f ~/.alsactlrestore &
-kilall rclone; rclone mount --daemon gdrive: /home/rudyon/gdrive &
 
 setxkbmap -option caps:backspace
 xmodmap -e "clear Lock"

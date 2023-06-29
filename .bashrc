@@ -5,3 +5,4 @@ alias ls="ls --color -p"
 alias vi="nvim"
 alias vim="nvim"
 export GOPATH=/home/rudyon/.go
+export EDITOR=/usr/bin/nvim

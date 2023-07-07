@@ -5,10 +5,12 @@ killall dunst; dunst &
 nitrogen --restore &
 killall picom; picom &
 killall polybar; polybar &
-killall unclutter; unclutter --timeout 1 --jitter 32 --start-hidden &
-alsactl restore -f ~/.alsactlrestore &
+killall unclutter; unclutter --timeout 0.25 --jitter 32 --start-hidden &
+alsactl restore -f ~/.alsarestore &
 
-setxkbmap -option caps:backspace
+setxkbmap -layout "us,us" -variant ",colemak"
+setxkbmap -option "grp:shifts_toggle"
+setxkbmap -option "caps:backspace"
 xmodmap -e "clear Lock"
 
 bspc monitor -d 1 2 3 4

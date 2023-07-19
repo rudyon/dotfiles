@@ -21,7 +21,12 @@ return require('packer').startup(function(use)
 
 	use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' } -- Recommended, not required.
 
-	use({ 'rose-pine/neovim', as = 'rose-pine' })
+	use 'EdenEast/nightfox.nvim'
+
+	use {
+		'nvim-lualine/lualine.nvim',
+		requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+	}
 
 	use {
 		'VonHeikemen/lsp-zero.nvim',
@@ -48,8 +53,6 @@ return require('packer').startup(function(use)
 		{'rafamadriz/friendly-snippets'},
 	}
 }
-
-	use 'xiyaowong/transparent.nvim'
 
 	use {
 		'nvim-telescope/telescope.nvim', tag = '0.1.2',

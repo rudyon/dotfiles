@@ -8,6 +8,8 @@ killall polybar; polybar &
 killall unclutter; unclutter --timeout 0 --jitter 32 --start-hidden &
 alsactl restore -f ~/.alsarestore &
 
+setxkbmap -layout "us,us" -variant ",colemak_dh"
+setxkbmap -option "grp:shifts_toggle"
 setxkbmap -option "caps:backspace"
 xmodmap -e "clear Lock"
 

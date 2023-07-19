@@ -8,3 +8,4 @@ export GOPATH=/home/rudyon/.go
 export EDITOR=/usr/bin/nvim
 alias icat="kitty +kitten icat"
 alias gen="cd /home/rudyon/devl/gen ; python gen.py ; cd /home/rudyon"
+alias t="echo -e '- [ ]$*' >> /home/rudyon/memx/todo.md"

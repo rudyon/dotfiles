@@ -95,8 +95,7 @@ XF86AudioMute
 
 # screenshot
 super + shift + s
-	shotgun -f png -g $(hacksaw) "$HOME/medi/scrn/$(date +%s).png"
-
+	shotgun -f png -g $(hacksaw) - | xclip -se c -t image/png
 # brightness up
 XF86MonBrightnessUp
 	brightnessctl s 10+%

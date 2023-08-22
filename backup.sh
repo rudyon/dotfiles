@@ -4,6 +4,8 @@ cp -v $HOME/.config/bspwm/bspwmrc .config/bspwm/bspwmrc
 cp -v $HOME/.config/sxhkd/sxhkdrc .config/sxhkd/sxhkdrc
 cp -v $HOME/.config/cava/config .config/cava/config
 cp -v $HOME/.config/kitty/kitty.conf .config/kitty/kitty.conf
-cp -rv $HOME/.config/nvim/* .config/nvim/
+cp -rv $HOME/.config/nvim/ .config/nvim/
 cp -v $HOME/.config/polybar/config.ini .config/polybar/config.ini
 cp -v $HOME/.config/picom/picom.conf .config/picom/picom.conf
+cp -rv $HOME/.task/ .task/
+cp -v $HOME/.taskrc .taskrc

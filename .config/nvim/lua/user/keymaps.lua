@@ -10,8 +10,10 @@ keymap("n", "<leader>ss", ":w<cr>", opts)
 keymap("n", "<leader>sq", ":wq<cr>", opts)
 keymap("n", "<A-j>", ":m .+1<CR>==", opts)
 keymap("n", "<A-k>", ":m .-2<CR>==", opts)
+keymap("n", "j", "gj", opts)
+keymap("n", "k", "gk", opts)
 
-keymap("i", "<A-j>", "<ESC>", opts)
+keymap("i", "jk", "<ESC>", opts)
 
 keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)

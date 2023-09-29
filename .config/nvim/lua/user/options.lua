@@ -16,8 +16,9 @@ local options = {
 	swapfile = false,
 	splitbelow = true,
 	smartindent = true,
-	numberwidth = 2,
+	numberwidth = 1,
 	termguicolors = true,
+	signcolumn = 'no',
 }
 
 for k, v in pairs(options) do

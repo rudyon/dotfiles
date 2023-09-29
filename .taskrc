@@ -13,10 +13,6 @@
 #   variable=$VALUE
 
 # Use the command 'task show' to see all defaults and overrides
-alias.burndown=burndown.daily
-weekstart=monday
-active.indicator=>
-default.command=ready
 
 # Files
 data.location=/home/rudyon/.task

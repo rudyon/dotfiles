@@ -104,11 +104,6 @@ _G.packer_plugins = {
     path = "/home/rudyon/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  conjure = {
-    loaded = true,
-    path = "/home/rudyon/.local/share/nvim/site/pack/packer/start/conjure",
-    url = "https://github.com/Olical/conjure"
-  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/rudyon/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -134,11 +129,6 @@ _G.packer_plugins = {
     path = "/home/rudyon/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["nightfox.nvim"] = {
-    loaded = true,
-    path = "/home/rudyon/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
-    url = "https://github.com/EdenEast/nightfox.nvim"
-  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/rudyon/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -159,6 +149,11 @@ _G.packer_plugins = {
     needs_bufread = false,
     path = "/home/rudyon/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
+  ["oxocarbon.nvim"] = {
+    loaded = true,
+    path = "/home/rudyon/.local/share/nvim/site/pack/packer/start/oxocarbon.nvim",
+    url = "https://github.com/nyoom-engineering/oxocarbon.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,

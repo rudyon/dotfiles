@@ -21,7 +21,7 @@ return require('packer').startup(function(use)
 
 	use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' } -- Recommended, not required.
 
-	use 'EdenEast/nightfox.nvim'
+	use 'nyoom-engineering/oxocarbon.nvim'
 
 	use {
 		'nvim-lualine/lualine.nvim',
@@ -59,6 +59,4 @@ return require('packer').startup(function(use)
 		-- or                            , branch = '0.1.x',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
-
-	use 'Olical/conjure'
 end)

@@ -2,6 +2,10 @@
 # wm independent hotkeys
 #
 
+super + p
+	{polybar-msg cmd toggle; bspc config top_padding +0 ,\
+	polybar-msg cmd toggle; bspc config top_padding 40 }
+
 # terminal emulator
 super + Return
 	kitty
@@ -19,8 +23,12 @@ super + Escape
 #
 
 # quit/restart bspwm
-super + alt + {q,r}
-	bspc {quit,wm -r}
+super + alt + q
+	bspc quit
+
+super + alt + r
+	bspc wm -r \
+	~/.config/bspwm/bspwmrc
 
 # close and kill
 super + {_,shift + }w
@@ -59,8 +67,8 @@ super + bracket{left,right}
 	bspc desktop -f {prev,next}.local
 
 # focus or send to the given desktop
-super + {_,shift + }{1-4}
-	bspc {desktop -f,node -d} '^{1-4}'
+super + {_,shift + }{1-8}
+	bspc {desktop -f,node -d} '^{1-8}'
 
 #
 # move/resize

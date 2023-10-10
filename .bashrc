@@ -9,3 +9,4 @@ export EDITOR=/usr/bin/nvim
 alias icat="kitty +kitten icat"
 alias gen="cd ~/devl/gen ; python gen.py"
 alias memx="nvim ~/memx/"
+alias log="echo \- $(date --iso-8601) "$1" >> ~/memx/musings.md"

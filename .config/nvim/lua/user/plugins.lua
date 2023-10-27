@@ -21,7 +21,7 @@ return require('packer').startup(function(use)
 
 	use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' } -- Recommended, not required.
 
-	use 'nyoom-engineering/oxocarbon.nvim'
+	use 'rose-pine/neovim'
 
 	use {
 		'nvim-lualine/lualine.nvim',

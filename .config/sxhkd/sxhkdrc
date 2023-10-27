@@ -4,7 +4,7 @@
 
 super + p
 	{polybar-msg cmd toggle; bspc config top_padding +0 ,\
-	polybar-msg cmd toggle; bspc config top_padding 40 }
+	polybar-msg cmd toggle; bspc config top_padding 36 }
 
 # terminal emulator
 super + Return
@@ -103,7 +103,8 @@ XF86AudioMute
 
 # screenshot
 super + shift + s
-	shotgun -f png -g $(hacksaw) - | xclip -se c -t image/png
+	flameshot gui
+
 # brightness up
 XF86MonBrightnessUp
 	brightnessctl s 10+%

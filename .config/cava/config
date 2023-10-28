@@ -1,18 +1,5 @@
 [input]
 method = pipewire
-source = auto
-
-[general]
-autosens = 1
-sensitivity = 120
-
-bars = 0
-bar_width = 1 
-bar_spacing = 0
 
 [color]
-integral = 0
-foreground = "#e3256b" 
-
-[output]
-method = sdl 
+foreground = red 

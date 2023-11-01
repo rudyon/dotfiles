@@ -1,5 +1,12 @@
 [input]
 method = pipewire
 
+
 [color]
-foreground = red 
+gradient = 1
+gradient_count = 5
+gradient_color_1 = "#6d7fe3"
+gradient_color_2 = "#e3256b"
+gradient_color_3 = "#e3256b"
+gradient_color_4 = "#e3256b"
+gradient_color_5 = "#e3256b"

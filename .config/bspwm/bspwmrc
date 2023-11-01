@@ -6,7 +6,6 @@ nitrogen --restore &
 killall picom; picom &
 killall polybar; polybar default; polybar extra &
 killall unclutter; unclutter --timeout 0 --jitter 32 --start-hidden &
-alsactl restore -f /home/rudyon/.alsarestore &
 
 setxkbmap -option "caps:backspace"
 xmodmap -e "clear Lock"
@@ -28,4 +27,4 @@ bspc config focused_border_color "#e3256b"
 bspc config normal_border_color "#073642"
 bspc config active_border_color "#073642"
 
-bspc rule -a opti state=floating
+bspc rule -a opti state=pseudo-tile

@@ -1,7 +1,7 @@
 #! /bin/sh
 
 killall sxhkd; sxhkd &
-killall dunst; dunst &
+killall runst; runst &
 nitrogen --restore &
 killall picom; picom &
 killall polybar; polybar default; polybar extra &
@@ -10,7 +10,7 @@ killall unclutter; unclutter --timeout 0 --jitter 32 --start-hidden &
 setxkbmap -option "caps:backspace"
 xmodmap -e "clear Lock"
 
-bspc monitor -d 1 2 3 4
+bspc monitor -d 1 2 3 4 5 6
 
 bspc config border_width 2
 bspc config window_gap 12 

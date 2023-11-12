@@ -1,10 +1,16 @@
 #
 # wm independent hotkeys
 #
+#
 
+# search on wikipedia
+super + alt + w
+	xdg-open "https://en.wikipedia.org/wiki/Special:search?search=$(xclip -o)"
+
+# polybar
 super + p
 	{polybar-msg cmd toggle; bspc config top_padding +0 ,\
-	polybar-msg cmd toggle; bspc config top_padding 36 }
+	polybar-msg cmd toggle; bspc config top_padding 30 }
 
 # terminal emulator
 super + Return

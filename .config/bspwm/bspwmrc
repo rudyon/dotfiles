@@ -2,6 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 pgrep -x picom > /dev/null || picom &
+pgrep -x lxqt-policykit-agent > /dev/null || lxqt-policykit-agent &
 
 bspc monitor -d 1 2 3 4 5
 
